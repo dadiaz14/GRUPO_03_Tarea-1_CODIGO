@@ -1,0 +1,546 @@
+<!doctype html>
+
+
+
+<html lang="en-gb" class="no-js">
+  <head>
+    <meta charset="utf-8">
+	<title>JS HTML DOM Básico</title>
+    <meta name="author" content="">
+    <meta name="keywords" content="">
+    <meta name="description" content="">		
+		
+	<!-- Mobile Specific Metas -->
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+      
+
+     <!--styles -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/font-awesome.css" rel="stylesheet">
+    <link href="js/owl-carousel/owl.carousel.css" rel="stylesheet">
+    <link href="js/owl-carousel/owl.theme.css" rel="stylesheet">
+    <link href="js/owl-carousel/owl.transitions.css" rel="stylesheet">
+    <link href="css/magnific-popup.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="css/animate.css" />
+    <link rel="stylesheet" href="css/etlinefont.css">
+    <link href="css/style.css" type="text/css"  rel="stylesheet"/>
+
+    
+	<body  data-spy="scroll" data-target="#main-menu">
+ 
+  <div id="pageloader">   
+        <div class="loader">
+          <img src="images/progress.gif" alt='loader' />
+        </div>
+   </div>
+
+		<header id="header">
+				<div class="container">
+					<div class="row">
+						<div class="col-sm-12">
+							<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#main-menu">
+								<span class="sr-only">Toggle navigation</span>
+								<span class="fa fa-bars"></span>
+								<span class="icon-bar"></span>
+								<span class="icon-bar"></span>
+							</button>
+							<div class="clear-toggle"></div>
+							<div id="main-menu" class="collapse scroll navbar-right">
+								<ul class="nav">
+                                
+									<li class="active"> <a href="#home">Inicio</a> </li>
+
+                                    <li> <a href="#introduccion">Introduccion</a> </li>
+									
+									<li> <a href="#about">Metodos DOM</a> </li>
+                                    
+                                    <li> <a href="#history">Componentes DOM</a> </li>
+                                    
+                                    <li> <a href="#works">Elementos DOM</a> </li>
+                                    
+                                     <li> <a href="#team">DOM Html</a> </li>
+																		
+                                    
+                                    <li> <a href="#testimonials">DOM Css</a></li>
+    
+										
+								</ul>
+							</div><!-- end main-menu -->
+						</div>
+					</div>
+				</div>
+			</header>
+        <section id="home" class="home">
+             <div class="slider-overlay"></div>
+            <div class="flexslider">
+                <ul class="slides scroll">
+                    <li class="first">
+                        <div class="slider-text-wrapper">  
+                            <div class="container">
+                                <div class="big">JS HTML DOM Básico </div>          
+                                <div class="small">Aplicación de tecnologías Web<br><br>Nrc: 7383<br><br>Docente: Ing. Juan Galarraga <br><br>Periodo: 202151<br><br>GRUPO 3<br><br>INTEGRANTES:<br><br>David Diaz<br>Jean Toapanta<br>Jerry Tovar</div>
+                            </div>       
+                        </div>
+                        <img src="images/slider/1.jpg" alt="">
+                    </li>
+                    
+                </ul>
+            </div>
+        </section>
+
+  <section  id="introduccion" class="section">
+       <div class="container">
+           <div class="row">
+              
+              <!-- Features Icon-->
+              <div class="col-md-4">
+                  <div class="features-icon-box">
+                  
+                      
+                      <div class="features-info">
+                         <h4><center>JS HTML DOM Básico</center></h4>
+                         <p class="text-justify">Es esencialmente una interfaz de plataforma que proporciona un conjunto estándar de objetos para representar documentos HTML, XHTML y XML, un modelo estándar sobre cómo pueden combinarse dichos objetos, y una interfaz estándar para acceder a ellos y manipularlos. A través del DOM, los programas pueden acceder y modificar el contenido, estructura y estilo de los documentos HTML y XML, que es para lo que se diseñó principalmente.</p>
+                         <img src="images/dom.png" alt='loader' width="100%" height="100%" >
+                      </div>
+                  </div>
+              </div>
+
+              <div class="col-md-4">
+                  <div class="features-icon-box">
+                  
+                      <div class="features-info">
+                         <h4><center>HTML DOM </center></h4>
+                         <p class="text-justify">HTML DOM es un modelo de objetos estándar y una interfaz de programación para HTML.Los elementos HTML como objetos.Las propiedades de todos los elementos HTML.Los métodos para acceder a todos los elementos HTMLLos eventos para todos los elementos HTML.En otras palabras: HTML DOM es un estándar sobre cómo obtener, cambiar, agregar o eliminar elementos HTML.</p>
+                          <img src="images/htmldom.png" alt='loader' width="100%" height="100%" >
+                      </div>
+                  </div>
+              </div>
+              <div class="col-md-4">
+                  <div class="features-icon-box">
+                  
+                      
+                      <div class="features-info">
+                          <div class="features-info">
+                         <h4><center>DOM </center></h4>
+                         <p class="text-justify">El Modelo de Objetos de Documento DOM del W3C es una plataforma e interfaz de lenguaje neutro que permite a los programas y scripts acceder y actualizar dinámicamente el contenido, la estructura y el estilo de un documento.Se divide en tres Core DOM modelo estándar para todos los tipos de documentos XML DOM modelo estándar para documentos XML HTML DOM modelo estándar para documentos HTML.</p>
+                          <img src="images/dom1.png" alt='loader' width="100%" height="100%" >
+                      </div>
+                      </div>
+                  </div>
+              </div>
+           </div> 
+       </div> 
+  </section> 
+
+  <section  id="about" class="section">
+       <div class="container">
+           <div class="row">
+              
+              <!-- Features Icon-->
+              <div class="col-md-4">
+                  <div class="features-icon-box">
+                  
+                      <div class="features-icon">
+                      <i class="fa fa-leaf"></i>
+                      </div>
+                      
+                      <div class="features-info">
+                         <h4>JavaScript - Métodos HTML DOM</h4>
+                         <p class="text-justify">Los métodos HTML DOM son acciones que puede realizar (en elementos HTML).Las propiedades HTML DOM son valores (de elementos HTML) que puede establecer o cambiar.</p>
+                         <img src="images/JSm.jpg" alt='loader' width="100%" height="100%" >
+                      </div>
+                  </div>
+              </div>
+
+
+               <!-- Features Icon-->
+              <div class="col-md-4">
+                  <div class="features-icon-box">
+                   <div class="features-icon">
+                      <i class="fa fa-leaf"></i>
+                      </div>
+                      
+                      <div class="features-info">
+                         <h4>La interfaz de programación DOM</h4>
+                         <p class="text-justify">Se puede acceder al DOM HTML con JavaScript (y con otros lenguajes de programación).<br>
+                        En el DOM, todos los elementos HTML se definen como objetos .<br>La interfaz de programación son las propiedades y métodos de cada objeto.<br>
+                        Una propiedad es un valor que puede obtener o establecer (como cambiar el contenido de un elemento HTML).<br>
+                        Un método es una acción que puede realizar (como agregar o eliminar un elemento HTML).</p>
+                        <img src="images/1.jpg" alt='loader' width="100%" height="100%" >
+                      </div>
+                  </div>
+              </div>
+ 
+               <!-- Features Icon-->
+              <div class="col-md-4">
+                  <div class="features-icon-box">
+                  
+                      <div class="features-icon">
+                      <i class="fa fa-leaf"></i>
+                      </div>
+                      
+                      <div class="features-info">
+                         <h4>El método getElementById</h4>
+                         <p class="text-justify">La forma más común de acceder a un elemento HTML es usar el id del elemento.<br>
+                         En el ejemplo anterior, el getElementById método utilizado id="demo" para encontrar el elemento.</p>
+                         <img src="images/2.jpg" alt='loader' width="100%" height="100%" >
+                      </div>
+                  </div>
+              </div>
+
+              <!-- Features Icon-->
+              <div class="col-md-4">
+                  <div class="features-icon-box">
+                     <div class="features-icon">
+                      <i class="fa fa-leaf"></i>
+                      </div>
+                      
+                      <div class="features-info">
+                         <h4>La propiedad innerHTML</h4>
+                         <p class="text-justify">La forma más sencilla de obtener el contenido de un elemento es mediante la innerHTML propiedad.La innerHTML propiedad es útil para obtener o reemplazar el contenido de elementos HTML.</p>
+                         <img src="images/3.jpg" alt='loader' width="100%" height="100%" >
+                         <p class="text-justify">La propiedad innerHTML se puede utilizar para obtener o cambiar cualquier elemento HTML, incluidos html y body.</p>
+
+                      </div>
+                  </div>
+              </div>
+
+
+              
+           </div> <!-- /.row-->
+       </div> <!-- /.container-->
+  </section> 
+  <!--End Features-->
+  
+   
+    <section id="history" class="section parallax">
+		<div class="overlay"></div>
+            <div class="container">
+                
+                 <div class="title-box text-center white">
+                    <h2 class="title">COMPONENTES DOM HTML EN JS</h2>
+                   
+                 </div>
+                 
+                     <!-- History Timeline -->
+                    <ul class="timeline list-unstyled">
+                        
+                        
+                        <!--History Item -->
+                        <li class="timeline-item">
+                             <h4 class="text-justify">El objeto de documento HTML DOM es el propietario de todos los demás objetos de su página web</h4>
+                        </li>
+                        <li class="timeline-item">
+                            <h4 class="text-justify"> Si desea acceder a cualquier elemento de una página HTML, siempre comience por acceder al objeto del documento.A continuación se muestran algunos ejemplos de cómo puede utilizar el objeto de documento para acceder y manipular HTML.</h4>
+                        </li>                        
+                        
+                        <!--History Item -->
+                        <li class="timeline-item">
+                            <h4>Encontrar elementos HTML</h4>
+                            <img src="images/4.jpg" alt='loader' width="100%" height="100%" >
+
+                        </li>
+                        <!-- End Item -->
+                        
+                        <!--History Item -->
+                        <li class="timeline-item">
+                            <h4>Cambiar elementos HTML</h4>
+                            <img src="images/5.jpg" alt='loader' width="100%" height="100%" >
+                        </li>
+                        <!-- End Item -->
+                        <br>
+                         <!--History Item -->
+                        <li class="timeline-item">
+                            <h4>Agregar y eliminar elementos</h4>
+                            <img src="images/6.jpg" alt='loader' width="100%" height="100%" >
+
+                        </li>
+                        <!-- End Item -->
+                        
+                         <li class="clear"></li>
+                        
+                        <li class="end-icon fa fa-bookmark"></li>
+                    </ul>
+                   <!-- End History Timeline -->
+                   
+           </div> <!--/.container-->
+	</section>
+   <!--End History-->
+   
+
+    
+    <section id="works" class="section parallax">
+        <div class="overlay"></div>
+            <div class="container">
+                
+                 <div class="title-box text-center white">
+                    <h2 class="title">Elementos DOM</h2>
+                   
+                 </div>
+                 
+                     <!-- History Timeline -->
+                    <ul class="timeline list-unstyled">
+                        
+                        
+                        <!--History Item -->
+                        <li class="timeline-item">
+                             <p class="text-justify">A menudo, con JavaScript, desea manipular elementos HTML.Para hacerlo, primero debes encontrar los elementos. Hay varias formas de hacer esto.
+                        </li>
+
+                        <li class="timeline-item">
+                            <h4 class="text-justify"> Encontrar elemento HTML por ID </h4>
+                              <img src="images/7.jpg" alt='loader' width="100%" height="100%" >
+                        </li>                        
+                        
+                        <!--History Item -->
+                        <li class="timeline-item">
+                            <h4>Encontrar elementos HTML por nombre de etiqueta </h4>
+                            <img src="images/8.jpg" alt='loader' width="100%" height="100%" >
+
+                        </li>
+                        <!-- End Item -->
+                        
+                        <!--History Item -->
+                        <li class="timeline-item">
+                            <h4>Encontrar elementos HTML por nombre de clase </h4>
+                            <img src="images/9.jpg" alt='loader' width="100%" height="100%" >
+                        </li>
+                        <!-- End Item -->
+                        
+                         <!--History Item -->
+                        <li class="timeline-item">
+                            <h4>Encontrar elementos HTML mediante selectores CSS </h4>
+                            <img src="images/10.jpg" alt='loader' width="100%" height="100%" >
+
+                        </li>
+                        <!-- End Item -->
+                          <li class="timeline-item">
+                            <h4>Encontrar elementos HTML por colecciones de objetos HTML  </h4>
+                            <img src="images/11.jpg" alt='loader' width="100%" height="100%" >
+
+                        </li>
+                             <li class="timeline-item">
+                            <h4>Otros Tipos de objetos html </h4>
+                            <img src="images/12.jpg" alt='loader' width="100%" height="100%" >
+
+                        </li>
+                         <li class="clear"></li>
+                        
+                        <li class="end-icon fa fa-bookmark"></li>
+                    </ul>
+                   <!-- End History Timeline -->
+                   
+           </div> <!--/.container-->
+    </section>
+   
+   
+    
+  <!--Start Team-->
+  <section id="team" class="section">
+		<div class="container">
+            <div class="row">
+                    
+             <div class="title-box text-center">
+                <h2 class="title">DOM HTML</h2>
+             </div>
+              
+             </div>
+	
+				<div class="team-items team-carousel">
+                    
+                      <div class="item">
+                          <img src="images/13.jpg" alt=""  />
+                          <h4>Cambio de contenido HTML</h4>
+                          <p class="text-justify">La forma más sencilla de modificar el contenido de un elemento HTML es mediante la innerHTML propiedad.Para cambiar el contenido de un elemento HTML, use esta sintaxis: document.getElementById(id).innerHTML = new HTML</p>
+                          
+                          <div class="socials">
+                         
+                          </div>
+                      </div>
+                      
+                      <div class="item">
+                          <img src="images/14.jpg" alt=""  />
+                          <h4>Cambiar el valor de un atributo</h4>
+                          <p class="text-justify">Para cambiar el valor de un atributo HTML, use esta sintaxis:<br>document.getElementById(id).attribute = new value.Este ejemplo cambia el valor del atributo src de un "img" elemento. Ejemplo explicado:El documento HTML anterior contiene un "img" elemento conid="myImage".Usamos el DOM HTML para obtener el elemento con id="myImage". Un JavaScript cambia el src atributo de ese elemento de "smiley.gif" a "landscape.jpg". </p>
+                          
+                          <div class="socials">
+                           
+                          </div>
+                      </div>
+                     
+                      <div class="item">
+                          <img src="images/15.jpg" alt=""  />
+                          <h4>Contenido HTML dinámico</h4>
+                          <p class="text-justify">JavaScript puede crear contenido HTML dinámico: Fecha: Mar 29 Jun 2021 22:02:12 GMT-0500 (hora estándar de Colombia) </p>
+                          
+                          <div class="socials">
+                           
+                          </div>
+                      </div>
+                      
+                      <div class="item">
+                          <img src="images/16.jpg" alt=""  />
+                          <h4>document.write ()</h4>
+                          <p class="text-justify">En JavaScript, document.write() se puede utilizar para escribir directamente en el flujo de salida HTML: No lo utilice nunca document.write() después de cargar el documento. Sobrescribirá el documento.</p>
+                          
+                          <div class="socials">
+                            
+                          </div>
+                      </div>
+                    
+				</div>
+                <!-- End Team -->
+			</div>
+            <!-- End Content -->
+	</section>
+  <!--End Team-->
+
+ 
+               
+               <!--Services Item-->
+               <div class="col-md-4">
+                   <div class="services-box">
+                       <div class="services-icon"> <i class="icon-aperture"></i></div> 
+                       <div class="services-desc">
+                          <h4>Validación automática de formularios HTML</h4>
+                          <p class="text-justify">El navegador puede realizar automáticamente la validación del formulario HTML:Si un campo de formulario (fname) está vacío, el required atributo evita que se envíe este formulario.</p>
+                          <img src="images/19.jpg" alt=""  />
+                       </div>
+                   </div>
+               </div>
+        
+        
+              
+            </div> <!--/.row-->
+        </div> <!--/.container-->
+   </section> 
+  <!--End Services-->
+
+ 
+     <!--Start Why Choose us-->
+  <section id="testimonials" class="section">
+       <div class="container">
+           <div class="row">
+           
+                 <div class="title-box text-center">
+                    <b><h1 style="color:white;"><center>DOM CSS</center></h1>
+                 </div>
+              
+        
+            
+           <center><!--Start Accordion-->
+            <div class="col-md-6">
+               <div class="panel-group accordion-main" id="accordion">
+                       <!--About accordion #1-->
+				       <div class="panel">
+                           <div class="panel-heading collapsed" data-toggle="collapse"
+                            data-parent="#accordion" data-target="#collapseOne">
+                          <h6 class="panel-title accordion-toggle">
+                              Cambio de estilo HTML 
+                          </h6>
+                        </div>
+					<div id="collapseOne" class="panel-collapse collapse">
+                            <div class="panel-body">
+                                <p>Para cambiar el estilo de un elemento HTML, use esta sintaxis:<br>document.getElementById(id).style.property = new style
+
+                            </p>
+                            <img src="images/20.jpg" alt=""  />
+                                
+                        </div>
+					</div>
+				  </div>
+                  
+                  <!--About accordion #2-->
+				  <div class="panel">
+                       <div class="panel-heading collapsed" data-toggle="collapse"
+                        data-parent="#accordion" data-target="#collapseTwo">
+                      <h6 class="panel-title accordion-toggle">
+                          Uso de eventos
+
+                      </h6>
+                       </div>
+					<div id="collapseTwo" class="panel-collapse collapse">
+                            <div class="panel-body">
+                                <p>El DOM HTML le permite ejecutar código cuando ocurre un evento.El navegador genera eventos cuando "suceden cosas" en elementos HTML
+
+                            </p>
+                            <img src="images/21.jpg" alt=""  />
+                        </div>
+					</div>
+				  </div>
+
+                 <!--About accordion #3-->
+				  <div class="panel">
+                      <div class="panel-heading collapsed" data-toggle="collapse"
+                            data-parent="#accordion" data-target="#collapseThree">
+                          <h6 class="panel-title accordion-toggle">
+                              Otros Estilos Dom
+                          </h6>
+                        </div>
+					<div id="collapseThree" class="panel-collapse collapse">
+                            <div class="panel-body">
+                                <p>Este tipo de estilos se lo puede poner en cualquier pagina.
+                            </p>
+                             <img src="images/22.jpg" alt=""  />   
+                        </div>
+					</div>
+				  </div>
+
+				</div>
+            </div>
+            <!--End Accordion-->
+           </center>    
+           </div> <!--/.row-->
+       </div> <!--/.container-->
+  </section>
+  <!--End Why Choose us-->
+
+
+  
+   
+   <!--Start Footer-->
+   <footer>
+       <div class="container">
+           <div class="row">
+               <!--Start copyright-->
+               <div class="col-md-6 col-sm-6 col-xs-6">
+                   <div class="copyright"><p>Copyright © 2021 All Rights reserved by: DJJ
+                 </p></div>
+               </div>
+               <!--End copyright-->
+               
+               <!--start social icons-->
+               <div class="col-md-6 col-sm-6 col-xs-6">
+                   <div class="social-icons">
+                       <ul>
+                        <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                        <li> <a href="#"><i class="fa fa-twitter"></i></a></li>
+                        <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
+                        <li><a href="#"><i class="fa fa-instagram"></i></a></li>
+                       </ul>
+                    </div>
+               </div>
+               <!--End social icons-->
+           </div> <!-- /.row-->
+       </div> <!-- /.container-->
+   </footer>
+   <!--End Footer-->
+
+   <a href="#" class="scrollup"> <i class="fa fa-chevron-up"> </i> </a>
+
+    <!--Plugins-->
+	<script type="text/javascript" src="js/jquery-1.11.1.min.js"></script>
+    <script type="text/javascript" src="js/bootstrap.min.js"></script> 
+    <script type="text/javascript" src="js/owl-carousel/owl.carousel.js"></script>
+    <script type="text/javascript" src="js/jquery.flexslider-min.js"></script>
+    <script type="text/javascript" src="js/jquery.magnific-popup.min.js"></script>
+    <script type="text/javascript" src="js/easing.js"></script>
+    <script type="text/javascript" src="js/jquery.easypiechart.js"></script>
+    <script type="text/javascript" src="js/jquery.appear.js"></script>
+    <script type="text/javascript" src="js/jquery.parallax-1.1.3.js"></script>
+    <script type="text/javascript" src="js/jquery.mixitup.min.js"></script>
+    <script type="text/javascript" src="js/custom.js"></script>
+    
+ </body>
+</html>
+
